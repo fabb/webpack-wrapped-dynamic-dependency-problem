@@ -1,10 +1,11 @@
 {
-  "compilerOptions": {
-    "allowJs": true,
-    "declaration": true,
-    "emitDeclarationOnly": true,
-    "lib": ["dom", "esnext"],
-    "outDir": "libraryDist"
-  },
-  "include": ["src/index.js"]
+    "compilerOptions": {
+        "allowJs": true,
+        "declaration": true,
+        "emitDeclarationOnly": false,
+        "lib": ["dom", "esnext"],
+        "outDir": "libraryDist",
+        "moduleResolution": "Node12"
+    },
+    "include": ["src/index.js"]
 }
