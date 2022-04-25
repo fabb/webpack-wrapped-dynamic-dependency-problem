@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "lib": ["dom", "esnext"],
+    "outDir": "libraryDist"
+  },
+  "include": ["src/index.js"]
+}
